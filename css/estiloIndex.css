@@ -1,0 +1,112 @@
+/* estilo gral en todas las paginas */
+* {
+    color: dodgerblue;
+}
+ /* estilo boby */
+
+.bodyContacto {
+    background-image: url('../Imagenes/maga.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bodyIndex {
+    background-color: black;
+}
+
+
+
+/* estilo barra navegacion */
+/*contenedor padre*/
+.navContainer {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid dodgerblue;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.imagenNav {
+    padding: 10px;
+    width: 70px;
+    height: auto;
+    
+}
+
+.listaContainer {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    gap: 10px;
+    
+}
+
+/* estilos seccion productos */
+
+.productosContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.productos {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.imagenProd {
+    width: 200px;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* estilo footer */
+
+.footerContainer {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.navFooter {
+    width: 30%;
+    flex-grow: 2;
+    align-items: center;
+    
+
+}
+
+.listaFooter {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoFooter {
+    padding: 10px;
+    width: 70px;
+    height: auto;
+}
+
+    
+    
+
+
+
