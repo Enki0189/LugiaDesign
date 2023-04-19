@@ -5,43 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estiloIndex.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="Imagenes/iconoLugia.ico">
     <title>Contacto</title>
 </head>
-<body class="bodyContacto">
-    background-image: url('Imagenes/maga.jpeg');
+<body class="body">
     <!--encabezado-->
-    <header>
+    <header class="headerContainer">
         <!--barea de navegacion-->
-        <nav>
+        <nav class="navContainer">
             <img src="/Imagenes/lugiaLogo.jpeg" alt="lugiaLogo" class="imagenNav">
-            <ul>
-                <li class="lista"></li>
-                    <a href="index.html">Inicio</a>
-                <li class="lista"></li>
-                    <a href="nosotros.html">Nosotros</a>
-                <li class="lista"></li>
-                    <a href="local.html">Local</a>
-                <li class="lista"></li>
-                    <a href="productos.html">Productos</a>
-                <li class="lista"></li>
-                    <a href="contacto.html">Contacto</a>
-                
+            <ul class="listaContainer">
+                <li class="listaItem"><a href="index.html" target="_blank">Inicio</a></li>
+                <li class="listaItem"><a href="nosotros.html" target="_blank">Nosotros</a></li>
+                <li class="listaItem"><a href="local.html" target="_blank">Local</a></li>
+                <li class="listaItem"><a href="productos.html" target="_blank">Productos</a></li>
+                <li class="listaItem"><a href="contacto.html" target="_blank">Contacto</a></li>
             </ul>
         </nav>
+        <!-- fin barra de navegacion -->
     </header>
+    <!-- fin encabezado -->
+    <!--formulario contacto-->
+    <div class="formulario-container">
+        <div class="info-formulario">
+            <h2>CONTACTENOS</h2>
+            <p> somos una empresa familiar que realiza muebles de diseño </p>
+            <a href=""https://api.whatsapp.com/send?phone=+541164775438"">
+                <img src="Imagenes/WhatsApp_icon.png.ico" alt="iconoWpp">1564775438</a>
+        </div>
+        <form action="#" autocomplete="off" class="formulario">
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" class="campo">
+            <input type="email" name="email" placeholder="Ingrese su email" class="campo">
+            <textarea name="mensaje" placeholder="Ingrese un mensaje"></textarea>
+            <input type="submit" name="enviar" value="Enviar msj" class="btn-enviar">
 
-<!--pie de pagina-->
-<footer class="footer">
-    <div class="footerRedes">
-            <p>Seguinos en nuesras redes</p>
-            <a href="https://www.instagram.com/lugia.design.oficial/" target="_blank">Intagram</a>
+        </form>
+        <!--fin formulario contacto-->
 
     </div>
-    
 
+<!-- footer -->
+<footer class="footer">
+    <div class="footerContainer">
+        <img src="Imagenes/iconoLugia.ico" alt="logo" class="logoFooter">
+        <nav class="navFooter">
+            <ul class="listaFooter">
+                <li>WhatsApp</li>
+                <li>telegram</li>
+                <li>email</li>
+            </ul>
+        </nav>
+    </div>
 </footer>
+<!-- fin footer -->
+
 
 
     
