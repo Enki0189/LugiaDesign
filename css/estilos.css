@@ -111,8 +111,15 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    justify-content: center;
     gap: 50px;
     margin-top: 90px;
+}
+
+.info-formulario{
+    width: 100%;
+    border: 2px solid;
 }
 
 .formulario-container h2 {
@@ -149,6 +156,38 @@
     grid-template-rows: repeat(4,1fr);
     gap: 10px;
     
+
+}
+
+.campo {
+    opacity: 0.2;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px rgb(255, 255, 255);
+}
+
+.btn-enviar {
+    opacity: 0.5;
+    background-color: dodgerblue;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px rgb(255, 255, 255);
+}
+
+.textarea-form{
+    opacity: 0.2;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px rgb(255, 255, 255);
 
 }
 
