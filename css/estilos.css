@@ -113,7 +113,8 @@
     grid-template-columns: repeat(2,1fr);
     align-content: center;
     justify-content: center;
-    gap: 50px;
+    justify-items: center;
+    gap: 40px;
     margin-top: 90px;
 }
 
@@ -188,6 +189,7 @@
     text-align: center;
     text-decoration: none;
     text-shadow: -1px -1px 1px rgb(255, 255, 255);
+
 
 }
 
