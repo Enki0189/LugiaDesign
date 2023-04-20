@@ -121,6 +121,7 @@
 .info-formulario{
     width: 100%;
     border: 2px solid;
+    padding: 10px;
 }
 
 .formulario-container h2 {
@@ -143,6 +144,11 @@
     color: dodgerblue;
     font-weight: 700;
     
+}
+
+.icono{
+    width: 20px;
+    height: auto;
 }
 .formulario {
     width: 100%;
