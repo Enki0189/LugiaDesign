@@ -181,6 +181,11 @@ h2 {
 .icono{
     width: 20px;
     height: auto;
+
+}
+
+.info{
+    padding: 10px;
 }
 
 .formulario {
