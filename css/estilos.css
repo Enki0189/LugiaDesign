@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Tilt+Prism&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Nanum+Gothic&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 /* estilo gral en todas las paginas */
 
@@ -44,12 +44,12 @@ h1 {
 }
 
 h2 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     text-align: center;
 }
 
 .description {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 2.5vh;
     margin: 1vh 4vh 1vh 4vh;
     text-align: justify;
@@ -178,13 +178,12 @@ h2 {
     font-weight: 700;
 }
 
-.icono{
+.icono {
     width: 20px;
     height: auto;
-
 }
 
-.info{
+.info {
     padding: 10px;
 }
 
