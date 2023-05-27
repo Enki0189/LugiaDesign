@@ -231,3 +231,32 @@ h2 {
     text-decoration: none;
     text-shadow: -1px -1px 1px rgb(255, 255, 255);
 }
+
+/*estilo reloj*/
+/* .clock-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color:dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+  } */
+  
+  .clock-container {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+     
+  }
+  
+  
+  
+  
+
