@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="Imagenes/iconoLugia.ico">
     <title>Lugia Design</title>
+    <script src="./App/index.js"></script>
+    
 </head>
 
-<body class="body">
+<body class="body" onload="avanzaReloj()">
     <!--encabezado-->
     <header class="headerContainer">
         <!--barea de navegacion-->
@@ -37,39 +39,39 @@
         <section class="productosContainer">
             <div class="productos">
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioNegroV2.jpeg" alt="EscritorioBlanco2" class="imagenProd">
+                    <img src="Imagenes/escritorioNegroV2.jpeg" alt="EscritorioBlanco2" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioBlancoT.jpeg.jpg')" onmouseout="restaurarImagen(this, 'Imagenes/EscritorioBlanco2.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioBlancoT.jpeg" alt="escritorioBlancoT" class="imagenProd">
+                    <img src="Imagenes/escritorioBlancoT.jpeg" alt="escritorioBlancoT" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioNegroT.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioBlancoT.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioNegroT.jpeg" alt="escritorioNegroT" class="imagenProd">
+                    <img src="Imagenes/escritorioNegroT.jpeg" alt="escritorioNegroT" class="imagenProd"  onmouseover="cambiarImagen(this, 'Imagenes/escritorioNegroV.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioNegroT.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioNegroV.jpeg" alt="escritorioNegroV" class="imagenProd">
+                    <img src="Imagenes/escritorioNegroV.jpeg" alt="escritorioNegroV" class="imagenProd"  onmouseover="cambiarImagen(this, 'Imagenes/escritorioNeVH.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioNegroV.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioNeVH.jpeg" alt="escritorioNeVH" class="imagenProd">
+                    <img src="Imagenes/escritorioNeVH.jpeg" alt="escritorioNeVH" class="imagenProd"  onmouseover="cambiarImagen(this, 'Imagenes/EscritorioBlanco2.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioNeVH.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/EscritorioBlanco2.jpeg" alt="EscritorioBlanco2" class="imagenProd">
+                    <img src="Imagenes/EscritorioBlanco2.jpeg" alt="EscritorioBlanco2" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioBlancoT.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/EscritorioBlanco2.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioRoNeH.jpeg" alt="escritorioRoNeH" class="imagenProd">
+                    <img src="Imagenes/escritorioRoNeH.jpeg" alt="escritorioRoNeH" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioNeVH.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioRoNeH.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioBlH.jpeg" alt="escritorioBlH" class="imagenProd">
+                    <img src="Imagenes/escritorioBlH.jpeg" alt="escritorioBlH" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioBlRH.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioBlH.jpeg')">
 
                 </div>
                 <div class="productoItem">
-                    <img src="Imagenes/escritorioBlRH.jpeg" alt="escritorioBlRH" class="imagenProd">
+                    <img src="Imagenes/escritorioBlRH.jpeg" alt="escritorioBlRH" class="imagenProd" onmouseover="cambiarImagen(this, 'Imagenes/escritorioRoNeH.jpeg')" onmouseout="restaurarImagen(this, 'Imagenes/escritorioBlRH.jpeg')">
 
                 </div>
             </div>
@@ -88,7 +90,7 @@
 
     </main>
     <!-- fin main -->
-
+    <!--<div id="clock" class="clock-container"></div>-->
     <!-- footer -->
     <footer class="footer">
         <div class="footerContainer">
@@ -100,12 +102,14 @@
                     <li><a href="contacto@lugiadesign.com" target="_blank">Email</a></li>
                 </ul>
             </nav>
+            <div id="clock" class="clock-container" position="fixed"></div>    
         </div>
+        
     </footer>
     <!-- fin footer -->
 
 
-
+<script src="./App/reloj.js"></script>
 </body>
 
 </html>
