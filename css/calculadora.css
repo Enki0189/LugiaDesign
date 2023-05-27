@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+#calculadora {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 50%;
+    border: 3px solid dodgerblue;
+    padding: 2vw;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2vh;
+}
+
+button {
+    background-color: rgb(204, 231, 255);
+    border: 2px solid;
+    border-radius: 15%;
+    font-size: 2vh;
+}
